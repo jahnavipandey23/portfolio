@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Jahnavi Pandey</title>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="in.css">
@@ -26,128 +28,143 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-
         </nav>
-
         <!-- Header Section -->
         <header class="header">
-     
-            <h1 class="title">Hello, I'm <span>Jahnavi Pandey</span></h1>
-            <p class="subtitle">Aspiring Software Engineer & Web Developer</p>
-        </header>
 
+            <h1 class="title">Hello, I'm <span>Jahnavi Pandey</span></h1>
+            <p class="subtitle"><span id="typed"></span></p>
+        </header>
         <!-- About Section -->
         <section id="about" class="about">
             <h2>About Me</h2>
             <div class="about-frame">
-                <img src="new.jpg" alt="Jahnavi's Photo" class="profile-photo">
+                <!-- <img src="main1.jpg" alt="Jahnavi's Photo" class="profile-photo"> -->
                 <div class="about-text">
-                    <p>
-                        Hi! I'm an enthusiastic web developer with a passion for learning new technologies and creating impactful projects. 
-                        I love working on innovative ideas, solving real-world problems, and building modern, interactive web applications.I'm currently strengthening my problem solving skills by practicising data structure 
-                        and Algorithms in Java. Beyond coding ,I'm exploring various fields in tech to broaden my knowledge.  
+                    <p>Hey there! I’m a Computer Science student with a strong curiosity for how things work behind the
+                        scenes in technology. I began my journey with foundational web technologies like HTML and CSS,
+                        gradually expanding into JavaScript — and suddenly, websites started feeling
+                        alive! Now I’m knee-deep in routes, requests, and the wonderful chaos of full-stack
+                        development.
                     </p>
+                    <p>Alongside development, I’m building my grasp on DSA. While it
+                        can be challenging at times, I understand its importance and continue to practice regularly. I
+                        enjoy hands-on learning — whether it’s through building responsive web interfaces or debugging
+                        tricky logic errors. Proficient in Java as well, I’m constantly refining my skills and striving
+                        to create clean, efficient, and user-friendly applications.</p>
+
                 </div>
             </div>
         </section>
-        
-      <br>
+        <br>
         <!-- Skills Section -->
         <section id="skills" class="skills">
             <h2>My Skills</h2>
             <div class="skills-list">
                 <div class="skill-item">Java</div>
                 <div class="skill-item">JavaScript</div>
-                <div class="skill-item">HTML/CSS</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">Tailwind Css</div>
                 <div class="skill-item">c</div>
-             
-                
+                <div class="skill-item">SQL</div>
             </div>
         </section>
         <br>
         <br>
-       <!-- Education Section -->
-<section id="education" class="education">
-    <h2>My Education</h2>
-    <div class="education-list">
-        <!-- BTech Education Item -->
-        <div class="education-item">
-            <h3 class="education-title" onclick="toggleDetails('btech-details')">Bachelor of Technology in Computer Science</h3>
-            <p>KIET group of institution</p>
-            <div class="education-details" id="btech-details">
-                <p> I actively participated in events like IDEATEX-24 ,hackathons, coding Contest(AlgoUtsav) and several tech workshops,Bootcamps of AWS, Git and many more and also secured 9.13 sgpa.
-                   
-                </p>
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <h2>My Education</h2>
+            <div class="education-list">
+                <!-- BTech Education Item -->
+                <div class="education-item1">
+                    <h3>Bachelor of Technology in
+                        Computer Science</h3>
+                    <p>KIET group of institution</p>
+                </div>
+                <!-- School Education Item -->
+                <div class="education-item">
+                    <h3 class="education-title" onclick="toggleDetails('school-details')">Intermediate/High School</h3>
+                    <p>Jesus And Mary School </p>
+                    <div class="education-details" id="school-details">
+                        <p>
+                            I completed my high school, securing a percentage of 93%. In my Class 12th i secured 94% in
+                            computer science and overall 90% . This period helped me build a strong foundation in
+                            computer science, which influenced my choice of pursuing engineering.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <!-- School Education Item -->
-        <div class="education-item">
-            <h3 class="education-title" onclick="toggleDetails('school-details')">Intermediate/High School</h3>
-            <p>Jesus And Mary School </p>
-            <div class="education-details" id="school-details">
-                <p>
-                    I completed my high school, securing a percentage of 93%. In my Class 12th i secured 94% in computer science and overall 90% . This period helped me build a strong foundation in computer science, which influenced my choice of pursuing engineering.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<br>
-<br>
+        </section>
+        <br>
+        <br>
         <!-- Projects Section -->
-         <div id="projects" >
+        <div id="projects">
             <h1 id="mypro">My Projects</h1>
             <div class="project-card">
-                
-                <h3><a href="" target="_blank">Project 1</a></h3>
-                <p>A restaurant web application built using html, css and javascript</p>
-                
+                <h3><a href=" https://jahnavipandey23.github.io/moodmate/" target="_blank">Project 1</a></h3>
+                <p>Mood Mate</p>
                 <!-- Buttons inside the project card -->
                 <div class="project-buttons">
-                    <a href="https://github.com/jahnavipandey23/updated_restaurantwebsite" target="_blank" class="btn github-btn">GitHub</a>
+                    <a href="https://github.com/jahnavipandey23/moodmate" target="_blank"
+                        class="btn github-btn">GitHub</a>
+                        <a href="https://jahnavipandey23.github.io/moodmate/" target="_blank"
+                        class="btn live-btn">↗</a>
                 </div>
             </div>
             <br>
             <div class="project-card">
-                <h3><a href="https://github.com/jahnavipandey23/portfolio" target="_blank">Project 2</a></h3>
-                <p>A portfolio website.</p>
-                
+                <h3><a href="" target="_blank">Project 2</a></h3>
+                <p>My portfolio</p>
+
                 <!-- Buttons inside the project card -->
                 <div class="project-buttons">
                     <a href="" target="_blank" class="btn github-btn">GitHub</a>
+                       <a href="https://jahnavipandey23.github.io/updated_restaurantwebsite/" target="_blank"
+                        class="btn live-btn">↗</a>
                 </div>
+                
             </div>
-         </div>
-  
+        </div>
         <br>
-<br>
+        <div class="project-card">
+            <h3><a href="https://jahnavipandey23.github.io/updated_restaurantwebsite/" target="_blank">Project 3</a>
+            </h3>
+            <p>A web application built using html css and js</p>
+            <!-- Buttons inside the project card -->
+            <div class="project-buttons">
+                <a href="https://github.com/jahnavipandey23/updated_restaurantwebsite" target="_blank"
+                    class="btn github-btn">GitHub</a>
+                    <a href="https://jahnavipandey23.github.io/updated_restaurantwebsite/" target="_blank"
+                        class="btn live-btn">↗</a>
+            </div>
+        </div>
+        <br>
+        <br>
         <!-- Contact Section -->
         <section id="contact" class="contact">
             <h2>Contact Me</h2>
             <p>If you'd like to connect or collaborate, feel free to reach out!</p>
             <div class="contact-links">
                 <a href="https://github.com/jahnavipandey23" target="_blank" class="contact-link">
-                    <img src="git.png" alt="GitHub"height="50" width="50"> GitHub
+                    <img src="git.png" alt="GitHub" height="50" width="50"> GitHub
                 </a>
                 <a href="https://www.linkedin.com/in/jahnavi-pandey-7764a1328//" target="_blank" class="contact-link">
                     <img src="link.webp" alt="LinkedIn" height="50" width="50"> LinkedIn
                 </a>
                 <a href="mailto:pandeyjahnavi51@gmail.com" class="contact-link">
                     <img src="email.webp" alt="Email" height="50" width="50"> pandeyjahnavi51@gmail.com
-                    </a>
+                </a>
             </div>
         </section>
-
-        <!-- Footer -->
+            <!-- Footer -->
         <footer class="footer">
-            <p>Created by Jahnavi Pandey &copy; 2024</p>
+            <p>Created by Jahnavi Pandey &copy; 2025</p>
         </footer>
     </div>
     <button id="back-to-top">↑</button>
-
     <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="in.js"></script>
 </body>
 </html>
