@@ -97,9 +97,9 @@ body {
     text-align: center;
 }
 .about h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #FFD700;
+    color: #32CD32;
 }
 .about-frame {
     display: flex;
@@ -135,7 +135,7 @@ body {
 }
 /* Skills Section */
 .skills h2 {
-    color: #FFD700;
+    color:  #32CD32;
     text-align: center;
     margin: 20px 0;
 }
@@ -174,7 +174,7 @@ body {
     overflow-wrap: break-word;
 }
 .education h2 {
-    color: #FFD700;
+    color:  #32CD32;
     text-align: center;
     margin: 20px 0;
 }
@@ -227,7 +227,8 @@ body {
     max-width: 100%;
 }
 #mypro {
-    color: #FFD700;
+    color:  #32CD32;
+    font-size: 1.5rem;
     text-align: center;
     margin: 20px 0;
     font-family: arial;
